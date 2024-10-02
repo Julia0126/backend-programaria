@@ -16,5 +16,3 @@ function mostraPorta(){
 
 app.use(router.get('/ola', mostraOla));
 app.listen(porta, mostraPorta)
-
-
