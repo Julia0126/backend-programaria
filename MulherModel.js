@@ -19,4 +19,4 @@ const MulherSchema = new mongoose.Schema({
     }
 })
 
-module.exports = mongoose.model('diva', MulherSchema)
+module.exports = mongoose.model('diva', MulherSchema) // o diva está no singular pq o MongoDB coloca o 's' por padrão
